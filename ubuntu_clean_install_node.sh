@@ -1,4 +1,5 @@
 #!/bin/bash
+echo removing nodejs and npm
 sudo apt-get purge nodejs npm -y
 sudo apt-get remove nodejs npm node
 sudo apt-get purge nodejs
