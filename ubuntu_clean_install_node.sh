@@ -14,6 +14,7 @@ sudo rm -rf /opt/local/lib/node_modules
 sudo rm -rf /usr/local/lib/node*
 sudo rm -rf /usr/local/include/node*
 sudo rm -rf /usr/local/bin/node*
-curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash -
-sudo apt-get install -y nodejs
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+# curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash -
+# sudo apt-get install -y nodejs
 # sudo curl https://raw.githubusercontent.com/ranaFire/script/master/ubuntu_clean_install_node.sh | bash
