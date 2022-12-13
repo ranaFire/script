@@ -1,4 +1,8 @@
+
 /**
+Login in your youtube account
+Goto this link: https://www.youtube.com/feed/channels
+Open console and run this scrip.
 
  * Youtube bulk unsubsribe fn.
 
